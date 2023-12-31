@@ -19,7 +19,7 @@ function levelUp() {
 // For start the game 
 
 document.addEventListener("keypress",function (){
-    if(started = false){
+    if(!started){
         console.log("game is started");
         started = true;
         levelUp();
